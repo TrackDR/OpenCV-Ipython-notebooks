@@ -3,6 +3,11 @@
 # Example Original: https://www.youtube.com/watch?v=NAoj_0xh81M
 # Example Output: https://www.youtube.com/watch?v=GsepODXseMw
 
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+import os
+
 cv2.__version__
     
 inputvideo = "E:\GameplayFootage\Jeremy\YoshisIslandDS1-1to1-2.mp4"
