@@ -1,5 +1,7 @@
 # Captured video in 1080p
 # Output video is 720p, extracting only DS screens
+# Example Original: https://www.youtube.com/watch?v=NAoj_0xh81M
+# Example Output: https://www.youtube.com/watch?v=GsepODXseMw
 
 cv2.__version__
     
