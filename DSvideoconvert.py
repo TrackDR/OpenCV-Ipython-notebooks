@@ -1,3 +1,5 @@
+# Captured video in 1080p
+# Output video is 720p, extracting only DS screens
 
 cv2.__version__
     
