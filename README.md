@@ -1,4 +1,16 @@
 # OpenCV-Ipython-notebooks
-Some Ipython notebooks using OpenCV
+Some Jupyter/Ipython notebooks using OpenCV
 
-Run on Azure: https://notebooks.azure.com/trackdr/libraries/trackdr-OpenCV-notebooks
+conda create --name opencvenv python=3.9
+
+conda info --envs
+
+conda activate opencvenv
+
+coda install opencv
+
+conda install ipykernel jupyter -c conda-forge
+
+python -m ipykernel install --user --name opencvenv --display-name "OpenCV"
+
+conda install spyder -c conda-forge
