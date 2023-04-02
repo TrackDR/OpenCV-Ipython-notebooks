@@ -20,7 +20,9 @@ conda activate opencvenv
 
 codna install opencv
 
-conda install matplotlib 
+conda install matplotlib
+
+conda install scipy
 
 conda install ipykernel jupyter -c conda-forge
 
